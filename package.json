@@ -1,0 +1,23 @@
+{
+  "name": "mongo-with-mongoose",
+  "version": "1.0.0",
+  "description": "OBJECT DATA MAPPER .... OBJECT DOCUMENT MAPPER\r ODMs like Mongoose map documents coming form a database into usable JavaSccript objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adaazunigaa/Mongo-with-Mongoose.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adaazunigaa/Mongo-with-Mongoose/issues"
+  },
+  "homepage": "https://github.com/adaazunigaa/Mongo-with-Mongoose#readme",
+  "dependencies": {
+    "mongoose": "^6.3.0"
+  }
+}
