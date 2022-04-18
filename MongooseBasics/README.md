@@ -7,3 +7,6 @@ Instance methods : make our code reusable and associating logic
 
 Adding model Static Methods
     -Update to the model (entire model)
+
+Virtuals: multiple properties in the database
+    get and set
