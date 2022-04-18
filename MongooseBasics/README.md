@@ -10,3 +10,7 @@ Adding model Static Methods
 
 Virtuals: multiple properties in the database
     get and set
+
+Middleware
+    to run some code before something happens, like save something 
+    
