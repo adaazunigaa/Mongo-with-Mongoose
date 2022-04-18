@@ -58,6 +58,11 @@ productSchema.methods.addCategory = function(newCategory){
     return this.save();
 }
 
+productSchema.statics.fireSale = function() {
+    return this.updateMany({}, {onSale: true, price: .99})
+}
+
+
 const Product = mongoose.model("Product", productSchema);
 
 const findProduct = async()=> {
@@ -71,9 +76,10 @@ const findProduct = async()=> {
 };
 
 
+// findProduct();
 
-findProduct();
 
+Product.fireSale().then(res => console.log(res))
 
 
 
